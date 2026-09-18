@@ -1,6 +1,6 @@
 # Create local admin account
 $local_user = @{
-    Name                 = 'admin'
+    Name                 = 'gebruiker'
     NoPassword           = $true
 }
 $user = New-LocalUser @local_user 
